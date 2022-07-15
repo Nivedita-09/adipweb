@@ -1,0 +1,75 @@
+.Navbar{
+    width: 90%;
+    /*background-color: rgb(233, 76, 29);*/
+    display: flex;
+}
+.Navbar-container{
+    justify-content: space-between;
+}
+.Logo_1{
+    height: 90px;
+    width:22%;
+    /*background-color: yellow;*/
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    line-height: 90px;
+}
+.nav-items{
+    height: 90px;
+    width: 65%;
+    /*background-color: yellowgreen;*/
+    display: flex;
+    justify-content: right;
+    padding-left: 30px;
+}
+.nav-item{
+    width: 30%;
+    
+    /*background-color: gray;*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 75px;
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+    
+}
+.login {
+    
+   
+    padding: 16px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 2px solid #3094BC;
+}
+.login-btn {
+    background-color: white; 
+    color: black; 
+    
+    
+}
+.login-btn:hover {
+    background-color: #3094BC;
+    color: white;
+}
+.contact-us{
+    color: #1D6684;
+    font-size: 20px;
+    text-decoration: none;
+    margin:15px;
+    position: relative;
+    font-weight: bolder;
+     
+}
+.icon{
+    float: right;
+}
