@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Logo_2 = () => {
+export default function Amubulance(){
   return (
     <div className='Logo_2' >
         <svg width="100" height="76" viewBox="0 0 100 76" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -28,4 +28,4 @@ const Logo_2 = () => {
   )
 }
 
-export default Logo_2
+ 
